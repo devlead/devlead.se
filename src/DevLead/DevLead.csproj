@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+	<PackageReference Include="Statiq.Web" Version="1.0.0-beta.18" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="input\scss\" />
+    <Folder Include="theme\" />
+  </ItemGroup>
+</Project>

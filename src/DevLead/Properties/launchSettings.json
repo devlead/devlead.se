@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DevLead": {
+      "commandName": "Project",
+      "commandLineArgs": "preview"
+    }
+  }
+}
