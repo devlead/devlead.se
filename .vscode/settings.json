@@ -1,0 +1,4 @@
+{
+    "clipImg.storageAccountName": "devleadse",
+    "clipImg.templateBlobUri": "https://cdn.devlead.se/{{container}}/{{blob}}?{{sas}}"
+}
