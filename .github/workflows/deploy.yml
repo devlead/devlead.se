@@ -16,4 +16,4 @@ jobs:
 
       - run: dotnet run --project ./src/DevLead -- deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEVLEADSE_GITHUB_TOKEN: ${{ secrets.DEVLEADSE_GITHUB_TOKEN }}

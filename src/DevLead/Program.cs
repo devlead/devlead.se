@@ -19,7 +19,7 @@ namespace StatiqWeb
             await Bootstrapper
                 .Factory
                 .CreateDefault(args)
-                .AddThemeFromUri(new Uri("https://github.com/statiqdev/CleanBlog/archive/f732ab7f482b55e8d72bfa8ba4e84bdec9ae6b85.zip"))
+                .AddThemeFromUri(new Uri("https://github.com/statiqdev/CleanBlog/archive/ceb5055f3d0f7a330708494ed21eb469cde62ce2.zip"))
                 .AddWeb()
                 .ConfigureSettings(settings =>
                 {       
@@ -28,7 +28,7 @@ namespace StatiqWeb
                 .DeployToGitHubPages(
                     "devlead",
                     "devlead.github.io",
-                    Config.FromSetting<string>("GITHUB_TOKEN")
+                    Config.FromSetting<string>("DEVLEADSE_GITHUB_TOKEN")
                 )
         .RunAsync();
 
