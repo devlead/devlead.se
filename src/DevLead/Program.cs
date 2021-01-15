@@ -22,7 +22,7 @@ namespace StatiqWeb
                 .AddThemeFromUri(new Uri("https://github.com/statiqdev/CleanBlog/archive/f732ab7f482b55e8d72bfa8ba4e84bdec9ae6b85.zip"))
                 .AddWeb()
                 .ConfigureSettings(settings =>
-                {
+                {       
                     settings["GitHubBranch"] = "main";
                 })
                 .DeployToGitHubPages(
