@@ -26,11 +26,11 @@ jobs:
           NuGetReportSettings_SharedKey: ${{ secrets.NUGETREPORTSETTINGS_SHAREDKEY }}
           NuGetReportSettings_WorkspaceId: ${{ secrets.NUGETREPORTSETTINGS_WORKSPACEID }}
         if: ${{ env.NuGetReportSettings_SharedKey == null || env.NuGetReportSettings_WorkspaceId == null }}
-        run: dotnet dpi nuget --silent --output table analyze
+        run: dotnet dpi nuget --silent --output table analyze --buildversion $GITHUB_RUN_NUMBER
 
       - name: Run DPI Report
         env:
           NuGetReportSettings_SharedKey: ${{ secrets.NUGETREPORTSETTINGS_SHAREDKEY }}
           NuGetReportSettings_WorkspaceId: ${{ secrets.NUGETREPORTSETTINGS_WORKSPACEID }}
         if: ${{ env.NuGetReportSettings_SharedKey != null && env.NuGetReportSettings_WorkspaceId != null }}
-        run: dotnet dpi nuget --silent --output table report
+        run: dotnet dpi nuget --silent --output table report --buildversion $GITHUB_RUN_NUMBER
