@@ -17,3 +17,20 @@ jobs:
       - run: dotnet run --project ./src/DevLead -- deploy
         env:
           DEVLEADSE_GITHUB_TOKEN: ${{ secrets.DEVLEADSE_GITHUB_TOKEN }}
+
+      - name: Restore .NET Tools
+        run: dotnet tool restore
+
+      - name: Run DPI Analyze
+        env:
+          NuGetReportSettings_SharedKey: ${{ secrets.NUGETREPORTSETTINGS_SHAREDKEY }}
+          NuGetReportSettings_WorkspaceId: ${{ secrets.NUGETREPORTSETTINGS_WORKSPACEID }}
+        if: ${{ env.NuGetReportSettings_SharedKey == null || env.NuGetReportSettings_WorkspaceId == null }}
+        run: dotnet dpi nuget --silent --output table analyze
+
+      - name: Run DPI Report
+        env:
+          NuGetReportSettings_SharedKey: ${{ secrets.NUGETREPORTSETTINGS_SHAREDKEY }}
+          NuGetReportSettings_WorkspaceId: ${{ secrets.NUGETREPORTSETTINGS_WORKSPACEID }}
+        if: ${{ env.NuGetReportSettings_SharedKey != null && env.NuGetReportSettings_WorkspaceId != null }}
+        run: dotnet dpi nuget --silent --output table report
