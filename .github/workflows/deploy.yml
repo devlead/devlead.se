@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+
+env:
+  NuGetReportSettings_SharedKey: ${{ secrets.NUGETREPORTSETTINGS_SHAREDKEY }}
+  NuGetReportSettings_WorkspaceId: ${{ secrets.NUGETREPORTSETTINGS_WORKSPACEID }}
+
 jobs:
   build:
     runs-on: windows-latest
@@ -22,17 +27,11 @@ jobs:
         run: dotnet tool restore
 
       - name: Run DPI Analyze
-        env:
-          NuGetReportSettings_SharedKey: ${{ secrets.NUGETREPORTSETTINGS_SHAREDKEY }}
-          NuGetReportSettings_WorkspaceId: ${{ secrets.NUGETREPORTSETTINGS_WORKSPACEID }}
         if: ${{ env.NuGetReportSettings_SharedKey == null || env.NuGetReportSettings_WorkspaceId == null }}
         shell: bash
         run: dotnet dpi nuget --silent --output table analyze --buildversion $GITHUB_RUN_NUMBER
 
       - name: Run DPI Report
-        env:
-          NuGetReportSettings_SharedKey: ${{ secrets.NUGETREPORTSETTINGS_SHAREDKEY }}
-          NuGetReportSettings_WorkspaceId: ${{ secrets.NUGETREPORTSETTINGS_WORKSPACEID }}
         if: ${{ env.NuGetReportSettings_SharedKey != null && env.NuGetReportSettings_WorkspaceId != null }}
         shell: bash
         run: dotnet dpi nuget --silent --output table report --buildversion $GITHUB_RUN_NUMBER
