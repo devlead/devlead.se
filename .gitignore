@@ -40,3 +40,4 @@ TestResult.xml
 *.pfx
 [Tt]heme/
 .vs/
+.idea/
