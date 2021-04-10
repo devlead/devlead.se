@@ -1,0 +1,1 @@
+<?# IncludeCode "./../includes/posts/2021/devlead-statiq/includecode/src/HelloWorld.cs" /?>

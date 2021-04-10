@@ -56,5 +56,12 @@ I'm really happy how flexible and versatile the `TabGroup` shortcode ended up be
 
 ## Resources
 
-- Statiq - [GitHub](https://github.com/statiqdev) / [Documentation](https://statiq.dev/)
-- Devlead.Statiq - [GitHub](https://github.com/devlead/Devlead.Statiq) / [NuGet](https://www.nuget.org/packages/Devlead.Statiq/) / [Part 2 - Theme from external web resource ](/posts/2021/2021-04-10-devlead-statiq-part2-theme-from-uri)
+- Statiq
+  - [GitHub](https://github.com/statiqdev)
+  - [Documentation](https://statiq.dev/)
+- Devlead.Statiq
+  - [GitHub](https://github.com/devlead/Devlead.Statiq)
+  - [NuGet](https://www.nuget.org/packages/Devlead.Statiq/)
+  - [Part 1 - Tabs](/posts/2021/2021-04-09-devlead-statiq-part1-tabs)
+  - [Part 2 - Theme from external web resource](/posts/2021/2021-04-10-devlead-statiq-part2-theme-from-uri)
+  - [Part 3 - IncludeCode 🤺](/posts/2021/2021-04-11-devlead-statiq-part3-includecode)
