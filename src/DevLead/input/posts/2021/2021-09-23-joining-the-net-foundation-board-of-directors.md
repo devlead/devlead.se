@@ -21,11 +21,11 @@ And I'm deeply honored to announce that I have this election been elected along 
 
 This means that as a result of the election the board will have the following members
 
-* Beth Massi
 * Bill Wagner
 * Frank Odoom
 * Javier Lozano
 * Mattias Karlsson
+* Rich Lander
 * Rob Prouse
 * Shawn Wildermuth
 
@@ -33,11 +33,12 @@ This means that as a result of the election the board will have the following me
 
 Javier Lozano was re-elected, so leaving the board are
 
+* Beth Massi
 * Jeff Strauss
 * Layla Porter
 * Rodney Littles II
 
-Jeff, Layla, Rodney thanks you for your hard work! ❤️
+Beth, Jeff, Layla, Rodney thanks you for your hard work! ❤️
 
 ## Personal reflections
 
