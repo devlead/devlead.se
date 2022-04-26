@@ -9,7 +9,7 @@ using Statiq.Web;
 await Bootstrapper
     .Factory
     .CreateDefault(args)
-    .AddThemeFromUri(new Uri("https://github.com/statiqdev/CleanBlog/archive/ceb5055f3d0f7a330708494ed21eb469cde62ce2.zip"))
+    .AddThemeFromUri(new Uri("https://github.com/devlead/CleanBlog/archive/5eb1381346e550db6e1fbd4e268889dbc1dfcee.zip"))
     .AddWeb()
     .AddTabGroupShortCode()
     .AddIncludeCodeShortCode()

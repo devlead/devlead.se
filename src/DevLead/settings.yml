@@ -5,3 +5,4 @@ Image: "https://cdn.devlead.se/clipimg-vscode/2021/01/11/1f2af322-a19f-753d-bd3e
 Copyright: => $"© Mattias Karlsson {DateTime.Now.Year}"
 LinksUseHttps: true
 EditLink: => "https://github.com/devlead/devlead.se/edit/main/src/DevLead/input/" + doc.Source.GetRelativeInputPath()
+DateTimeDisplayCulture: "en-SE"
