@@ -5,7 +5,7 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Devlead.Statiq" Version="0.14.0" />
+    <PackageReference Include="Devlead.Statiq" Version="0.15.0" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="temp\**" />
