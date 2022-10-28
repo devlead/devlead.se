@@ -17,7 +17,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install .NET Core SDK
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v3
+        with:
+          global-json-file: global.json
 
       - run: dotnet run --project ./src/DevLead -- deploy
         env:
