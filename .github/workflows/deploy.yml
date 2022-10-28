@@ -18,6 +18,8 @@ jobs:
 
       - name: Install .NET Core SDK
         uses: actions/setup-dotnet@v1
+        with:
+          global-json-file: global.json
 
       - run: dotnet run --project ./src/DevLead -- deploy
         env:
