@@ -47,7 +47,7 @@ I'm truly humbled by the confidence placed in me by the Foundation members, so t
 I just got the news at the same time as the rest of the world, so I'm far from onboarded yet, and honestly don't have a 100% clear picture of what to expect and what's expected of me.
 
 But at the same time, I know too well how much hard and frustrating work it can be from years of experience participating in various boards, non-profits, communities, and open source projects. And I've got huge respect for the tasks and challenges at hand. The board speaks in one voice but consists of several voices, yours included.
-There're several challenges we face, some issues may be small, others unacceptable which clearly need to be addressed, key problem areas in my mind are:
+There are several challenges we face, some issues may be small, others unacceptable which clearly need to be addressed, key problem areas in my mind are:
 
 ### Diversity
 
