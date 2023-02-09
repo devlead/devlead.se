@@ -1,8 +1,7 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Statiq.Common;
-
 // ReSharper disable once UnusedType.Global
+
+namespace DevLead;
+
 public sealed class Sponsorship : Shortcode
 {
     public override Task<ShortcodeResult> ExecuteAsync(
