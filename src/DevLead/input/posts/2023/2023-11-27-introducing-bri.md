@@ -46,9 +46,8 @@ bri inventory myregistry.azurecr.io ./output/path
 
 ## Example
 
-You can see an example of the output that BRI generates at [www.devlead.se/bri/](https://www.devlead.se/bri/britool.azurecr.io/Bicep/modules/bri/4.0.0.0#overview).
-
-[![example](https://cdn.devlead.se/clipimg-vscode/2022/11/27/00ee924d-9de2-4b2b-90cc-1b5a8bcfb696_small.jpg?sv=2021-10-04&st=2023-11-27T19%3A39%3A50Z&se=2031-11-28T19%3A39%3A00Z&sr=b&sp=r&sig=oree1I2Ia%2BqTdwXxZ1teSRHTf9iPODDLjjp5HvUGVsA%3D)](https://www.devlead.se/bri/britool.azurecr.io/Bicep/modules/bri/4.0.0.0#overview).
+You can see an example of the output that BRI generates at [www.devlead.se/bri/](https://www.devlead.se/bri/britool.azurecr.io/bicep/modules/bri/4.0.0.0.html)
+[![example](https://cdn.devlead.se/clipimg-vscode/2022/11/27/00ee924d-9de2-4b2b-90cc-1b5a8bcfb696_small.jpg?sv=2021-10-04&st=2023-11-27T19%3A39%3A50Z&se=2031-11-28T19%3A39%3A00Z&sr=b&sp=r&sig=oree1I2Ia%2BqTdwXxZ1teSRHTf9iPODDLjjp5HvUGVsA%3D)](https://www.devlead.se/bri/britool.azurecr.io/bicep/modules/bri/4.0.0.0.html).
 
 ## Authentication
 
