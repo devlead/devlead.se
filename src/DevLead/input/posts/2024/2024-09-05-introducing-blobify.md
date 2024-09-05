@@ -5,7 +5,7 @@ tags:
     - Azure
     - Storage
 author: devlead
-description: A .NET Global tool that archives (moves) files from a local folder to Azure Blob Storage container.
+description: A .NET Global tool that archives (moves) files from a local folder to an Azure Blob Storage container.
 published: 2024-09-05
 image: https://cdn.devlead.se/clipimg-vscode/2024/09/05/fe73bb0124cc43a1af9520490a6367a8.jpg?sp=r&st=2024-09-04T18:14:45Z&se=2035-05-01T02:14:45Z&spr=https&sv=2022-11-02&sr=b&sig=HuC7WPifcu40wqwTXUZJ77qxzzfs%2BKtSKrkbJrmbqJw%3D
 ---
