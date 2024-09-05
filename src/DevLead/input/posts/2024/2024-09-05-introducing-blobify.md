@@ -73,6 +73,30 @@ flowchart TD
     verify --Not Matches--> skip
 ```
 
+## Example Usage in an Azure DevOps Pipeline task
+
+My personal use case was to archive local files on a schedules, this was achived with a scheduled Azure DevOps Pipelines running on a local DevOps agent, example Azure Pipelines task:
+
+```yaml
+    - task: AzureCLI@2
+      displayName: Archive files
+      inputs:
+        azureSubscription: 'azureSubscription'
+        scriptType: bash
+        scriptLocation: inlineScript
+        inlineScript: |
+          dotnet tool restore
+          dotnet blobify archive c:\local\agent\folder account container
+```
+
+The above task expects Blobify to be installed and pinned to a specific verion using a .NET tool manifest in repository, a manifest can be created using the .NET SDK CLI
+
+```bash
+dotnet new tool-manifest
+dotnet tool install Blobify
+```
+
+
 ## Open Source and Free to Use
 
 Blobify is available for free on NuGet and is open source, with its code accessible on GitHub. It is licensed under the permissive MIT license.
