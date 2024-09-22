@@ -66,6 +66,6 @@ I’ve already started adding the `net9.0` target framework to my OSS tools. Her
 
 - [**ARI** - Azure Resource Inventory](https://www.nuget.org/packages/ARI) .NET Tool: Inventories and documents Azure Tenant resources.
 - [**Blobify** - Blobify](https://www.nuget.org/packages/Blobify) .NET Tool: Archives local files to Azure Blob Storage.
-- [**BRI** - Bicep Registry Inventory](https://github.com/yourlink) .NET Tool: Inventories and documents Bicep modules in an Azure container registry.
+- [**BRI** - Bicep Registry Inventory](https://www.nuget.org/packages/BRI) .NET Tool: Inventories and documents Bicep modules in an Azure container registry.
 - [**DPI** - Dependency Inventory](https://www.nuget.org/packages/DPI) .NET Tool: Inventories dependencies to Azure Log Analytics.
 - [**UnpackDacPac** - Unpack DAC Package](https://www.nuget.org/packages/UnpackDacPac) .NET Tool: Extracts a DACPAC and generates a deployment script to a target folder, without needing a live database.
