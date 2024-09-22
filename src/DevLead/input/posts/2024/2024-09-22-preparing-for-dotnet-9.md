@@ -14,7 +14,7 @@ If you’re currently running .NET 6 or newer, I’ve found the migration proces
 
 ### 1. Update Dependencies
 
-Update outdated dependencies. This is always a good practice before migrating, many incompatibility issues are often sorted this way. An excellent tool aiding with this is the [dotnet-outdated](https://github.com/dotnet-outdated/dotnet-outdated) tool, run `dotnet outdated <solution/porojec folder>` to check for any out of date packages and it can even update the packages for you.
+Update outdated dependencies. This is always a good practice before migrating, many incompatibility issues are often sorted this way. An excellent tool aiding with this is the [dotnet-outdated](https://github.com/dotnet-outdated/dotnet-outdated) tool, run `dotnet outdated <solution/project folder>` to check for any out of date packages and it can even update the packages for you.
 
 ### 2. Remove Obsolete Target Frameworks
 
