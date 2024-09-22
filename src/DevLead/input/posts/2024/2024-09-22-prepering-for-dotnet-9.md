@@ -3,7 +3,7 @@ title: Preparing for .NET 9
 tags:
     - .NET
 author: devlead
-description: Inital reflections after running .NET 9 in production
+description: Initial reflections after running .NET 9 in production
 published: 2024-09-22
 image: https://cdn.devlead.se/clipimg-vscode/2024/09/22/df979602c75a4074bff02d5d02fdb88e.jpg?sv=2023-01-03&st=2024-09-22T12%3A57%3A23Z&se=2035-07-29T12%3A57%3A00Z&sr=b&sp=r&sig=V0HqKU5KQUe8JuTyKzmuxyNNyyX735PAm4M6Lx%2FaXoY%3D
 ---
