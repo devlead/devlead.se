@@ -47,7 +47,7 @@ After November 12, 2024, the supported frameworks will be:
 Once you’ve set everything up, build your solution and resolve any issues that arise:
 1. **Source Issues**: The only code issue I encountered was an `Index` extension method for `IEnumerable<T>`, which is now built-in with .NET 9. In my case, the method was internal and semantically different, so I simply renamed it.
    
-2. **Dependency Errors/Warnings**: The .NET 9 SDK is more vocal about packages with security issues or deprecated dependencies. Even transient dependencies (ones you don’t directly reference) might trigger warnings. `dotnet nuget why` is helpful here. You can either pin specific versions or migrate to replacement packages (especially common with Azure SDKs).
+2. **Dependency Errors/Warnings**: The .NET 9 SDK is more vocal about packages with security issues or deprecated dependencies. Even transitive dependencies (ones you don’t directly reference) might trigger warnings. `dotnet nuget why <solution/project folder> <packageid>` command is helpful here, which is part of the .NET 9 SDK. You can either pin specific versions or migrate to replacement packages (especially common with Azure SDKs).
 
 ### My Experience Running .NET 9 in Production
 
@@ -59,6 +59,7 @@ Overall, my experience running .NET 9 in production has been smooth sailing, wit
 ```xml
 <PackageReference Include="System.Text.Json" Version="8.0.4" />
 ```
+[Central Package Management (CPM)](https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management) is an good option to in one place for you solution handle versions of your packages including transitive.
 
 ### Adding `net9.0` to My Open-Source Tools
 
