@@ -7,6 +7,7 @@ tags:
     - Azure Log Analytics
     - DevOps
     - Tool
+    - DevOpsDocs
 author: devlead
 description: A DevOps tool to inspect dependencies and report to Azure Log Analytics
 published: 2021-03-20

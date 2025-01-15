@@ -7,6 +7,7 @@ tags:
     - ARM
     - IAAS
     - Tool
+    - DevOpsDocs
 author: devlead
 description: A DevOps tool to document a Azure tenant resources
 published: 2024-02-08

@@ -7,6 +7,7 @@ tags:
     - Bicep
     - IAAS
     - Tool
+    - DevOpsDocs
 author: devlead
 description: A DevOps tool to document Bicep modules in a Azure container registry
 published: 2023-11-27
