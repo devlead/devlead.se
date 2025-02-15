@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Get the sources
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install .NET Core SDK
         uses: actions/setup-dotnet@v3
