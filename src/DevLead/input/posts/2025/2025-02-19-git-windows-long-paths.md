@@ -37,5 +37,7 @@ New-ItemProperty `
 
 By following these steps, you can avoid the common pitfalls associated with long file and directory names in your Git repositories on Windows.
 
+### Disclaimer
 
+This isn't a silver bullet. While enabling long paths in Windows and Git helps in most scenarios, it's not a complete solution for all situations. Some workloads in Visual Studio can still encounter issues, particularly when paths are passed to other processes like legacy .NET Framework-based tools. If this is your process, you might want to consider using the [Pri.LongPath NuGet package](https://www.nuget.org/packages/Pri.LongPath), which provides drop-in replacements for System.IO APIs that handle long paths correctly.
 
