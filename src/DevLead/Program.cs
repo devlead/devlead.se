@@ -9,6 +9,16 @@
     {
         settings["GitHubBranch"] = Config.FromSetting<string>("GH_BRANCH", "main");
     })
+    .AddProcess(
+        ProcessTiming.Initialization,
+        launcher => new ProcessLauncher("npm", "install", "-g", "pagefind") { 
+            ContinueOnError = true
+        }
+    )
+    .AddProcess(
+        ProcessTiming.BeforeDeployment,
+         launcher => new ProcessLauncher("pagefind", "--site", $"\"{launcher.FileSystem.OutputPath.FullPath}\"")
+    )
     .DeployToGitHubPages(
         Config.FromSetting<string>("GH_OWNER","devlead"),
         Config.FromSetting<string>("GH_REPO", "devlead.github.io"),
