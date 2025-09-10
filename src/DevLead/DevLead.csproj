@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Devlead.Statiq" Version="2025.8.6.139" />
+    <PackageReference Include="Devlead.Statiq" Version="2025.9.10.150" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="temp\**" />
